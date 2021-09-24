@@ -1,0 +1,46 @@
+.meniu{
+
+display: flex;
+margin: auto;
+height: 410px;
+
+}
+.pirma{
+background-color:yellow;
+font-size: 120px;
+flex: 40%;
+text-align: center;
+}
+
+.antra{
+flex: 40%;
+
+
+}
+
+.meniuFoto{
+    width: 100%;
+    height: 100%
+}
+.trecia{
+background-color:chartreuse;
+flex: 20%;
+display: flex;
+font-size: 50px;
+flex-direction: column;
+}
+.nuoroda{
+    margin: auto;
+    color: crimson;
+}
+.tekstas{
+    background-color: cornsilk;
+}
+.nuotraukos{
+    display: inline;
+    
+}
+.noriu{
+    background-color: aqua;
+    font-size: 100px;
+}
