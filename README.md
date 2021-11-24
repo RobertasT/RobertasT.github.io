@@ -1,4 +1,2 @@
-# Edukacija pas Roberta
- Pramogos
-
-Sauletais sekmadieniais niekas nedirba :)
+# grunto-birza-pirkejo-gidas
+ 
