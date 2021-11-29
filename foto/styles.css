@@ -1,0 +1,132 @@
+.body{
+  background-color: rgba(221, 238, 207, 0.8);
+}
+.pabaiga{
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73B87A;
+} 
+.aprasas{
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;  
+}
+.box{  
+  margin-top: 50px;
+  height: auto;
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: center;   
+}
+  .flip-box {
+  background-color: transparent;
+  display: flex;
+  align-items: 100%;
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border: 2px solid ;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;  
+  }
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side */
+.flip-box-front {
+  background-color: #73B87A;
+  color: black;
+  font-size: 30px;
+}
+/* Style the back side */
+.flip-box-back {   
+  transform: rotateY(180deg);
+  }
+.flip-box-back h2 {
+  font-size: 25px;
+  font: bolder;
+  justify-content: center;
+  text-align: justify;
+  margin: 20px;
+}
+.statau{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;  
+  background-color:rgba(119, 196, 243, 0.8);
+  align-items: 100%;
+  justify-content: center;  
+}
+.statauTrecias{  
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  height: 300px;
+  background-color:rgba(217, 233, 243, 0.8);
+  align-items: 100%;
+  justify-content: center;
+  padding: 20px;
+  text-align: justify;    
+}
+.statauTrecias h3 {
+  font-size: 16px;
+}
+.button{
+  font-size: 30px;
+/* // trecias lygis mygtuko */
+}
+.box3{
+  align-items: center;
+  display: flex;
+  border: 2px;
+  border-color: #c6cace;
+  border-style:solid;
+  background-color: #f1f1f1;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+.box2{
+  background-color:#f1f1f1;
+  border: 0px;
+  border-style: solid;
+  padding: 20px;    
+  align-items: center;    
+  text-align: left;
+  width: 25%;
+  font-size: 35px;    
+}
