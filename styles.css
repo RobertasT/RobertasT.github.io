@@ -31,7 +31,9 @@
   /* height: 500px; */
   background-color:rgba(119, 196, 243, 0.8);
   align-items: 100%;
-  justify-content: center;  
+  justify-content: center; 
+  
+  
 }
 
 .tooltip {
@@ -41,17 +43,19 @@
   font-size: 50px;
   background-color:lightcyan;
 } 
-.aprasas {
-  justify-content: center; 
-  text-align: justify; 
-  display: flex;
+.aprasas{
+  font-size: 24px;
+  margin-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
-  font-size:24px;
-  margin-top: 50px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;  
 }
 .box{
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   height: auto;
   display: flex;
   margin-left: 10%;
@@ -89,6 +93,8 @@
   justify-content: center;
   flex-direction: column;
   font-size: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .foto{
   width: 100%;
